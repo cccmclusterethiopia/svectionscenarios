@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eviction Scenarios Table</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    thead {
+      background-color: #2563eb;
+      color: white;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+      vertical-align: top;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f1f5f9;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+    details {
+      margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th {
+        background: #2563eb;
+        color: #fff;
+        padding: 10px;
+      }
+      td {
+        border-bottom: 1px solid #e2e8f0;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Eviction Scenarios Overview</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Eviction Scenario</th>
+      <th>Sub-Scenario</th>
+      <th>Description</th>
+      <th>Stakeholders</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">1. Rent-Related Eviction</td>
+      <td>Inability to pay rent</td>
+      <td>Tenant unable to pay rent due to financial hardship (delays or non-payment).</td>
+      <td>CCCM, BoLSA, Protection Cluster</td>
+      <td><details><summary>See actions</summary>a) Negotiate with the landlord for more time.<br>b) Refer to Cash for Rent partner for support.<br>c) Refer tenant to BoLSA for further assistance.</details></td>
+    </tr>
+    <tr>
+      <td>Partial Payment</td>
+      <td>Tenant makes partial payments but can't pay the full rent.</td>
+      <td>CCCM, Protection Cluster, BoLSA</td>
+      <td><details><summary>See actions</summary>a) Assist in negotiating payment terms.<br>b) Refer to Cash Assistance partners for additional support.</details></td>
+    </tr>
+    <tr>
+      <td>Delayed Payment</td>
+      <td>Tenant delays rent payment due to loss of income or delayed wages.</td>
+      <td>CCCM, BoLSA</td>
+      <td><details><summary>See actions</summary>a) Discuss with the landlord for delayed payment.<br>b) Provide financial assistance through MPC or other programs.</details></td>
+    </tr>
+    <tr>
+      <td>2. Resource-Related Eviction</td>
+      <td>Failure to share resources</td>
+      <td>Tenant evicted for not sharing humanitarian aid received with property owner.</td>
+      <td>CCCM, Protection Cluster, Local Authorities</td>
+      <td><details><summary>See actions</summary>a) Facilitate dialogue between tenant and property owner.<br>b) Raise awareness on the roles of humanitarian aid.</details></td>
+    </tr>
+    <tr>
+      <td>3. Owner Needs Property</td>
+      <td>Owner reoccupying property</td>
+      <td>Property owner needs the space for their own use or for family.</td>
+      <td>CCCM, Local Authorities</td>
+      <td><details><summary>See actions</summary>a) Negotiate with the owner to allow a grace period for tenant relocation.<br>b) Assist tenant in finding alternative shelter.</details></td>
+    </tr>
+    <tr>
+      <td rowspan="2">4. Expired Agreement or No Agreement</td>
+      <td>Informal or verbal agreement expired</td>
+      <td>Tenant evicted because their informal agreement has expired or wasn't renewed.</td>
+      <td>CCCM, Local Authorities, Property Owner</td>
+      <td><details><summary>See actions</summary>a) Document tenant rights and help negotiate new terms.<br>b) Assist in legal matters through Protection Cluster.</details></td>
+    </tr>
+    <tr>
+      <td>No written contract</td>
+      <td>Tenant evicted without a formal contract, no terms in place for eviction.</td>
+      <td>Local Authorities, CCCM</td>
+      <td><details><summary>See actions</summary>a) Help tenant understand tenant rights.<br>b) Provide legal aid to advocate for tenants without contracts.</details></td>
+    </tr>
+    <tr>
+      <td>5. Institutional Eviction</td>
+      <td>Property reclaimed by public institution</td>
+      <td>Institutions like schools or health facilities evict tenants to reclaim the space for original use.</td>
+      <td>Local Authorities, Public Institutions</td>
+      <td><details><summary>See actions</summary>a) Coordinate with institutions to find alternative accommodation for tenants.<br>b) Assist in relocation efforts.</details></td>
+    </tr>
+    <tr>
+      <td>6. Land Ownership Disputes</td>
+      <td>Disputes over ownership or control</td>
+      <td>Eviction due to legal disputes over land or property ownership.</td>
+      <td>Legal Authorities, Local Authorities</td>
+      <td><details><summary>See actions</summary>a) Mediate between the conflicting parties.<br>b) Assist in resolving land dispute through legal means.</details></td>
+    </tr>
+    <tr>
+      <td>7. Secondary Occupation/Returnee Conflicts</td>
+      <td>Return of original owner or tenants</td>
+      <td>Original owners or tenants return to reclaim the property from displaced persons.</td>
+      <td>Local Authorities, CCCM</td>
+      <td><details><summary>See actions</summary>a) Provide support to displaced persons for alternative housing.<br>b) Facilitate dialogue for peaceful relocation.</details></td>
+    </tr>
+    <tr>
+      <td>8. Discrimination or Stigmatization</td>
+      <td>Eviction based on ethnicity, religion, or social bias</td>
+      <td>Eviction driven by discriminatory factors targeting specific IDP groups.</td>
+      <td>Local Authorities, Protection Cluster</td>
+      <td><details><summary>See actions</summary>a) Raise awareness on anti-discrimination laws.<br>b) Support victimized tenants with protection services.</details></td>
+    </tr>
+    <tr>
+      <td>9. Gender-Based Violence (GBV) or Family Breakdown</td>
+      <td>Domestic violence, separation, widowhood</td>
+      <td>Eviction due to domestic violence, family disputes, or widowhood, leaving the tenant without shelter.</td>
+      <td>Protection Cluster, Local Authorities</td>
+      <td><details><summary>See actions</summary>a) Provide GBV support services to affected individuals.<br>b) Facilitate safe housing options for victims of violence.</details></td>
+    </tr>
+    <tr>
+      <td>10. Overcrowding or Hosting Fatigue</td>
+      <td>Host evicting IDPs due to resource strain</td>
+      <td>Hosts evict IDPs due to overcrowding and strain on resources, or increased social tensions.</td>
+      <td>Local Authorities, CCCM, Protection Cluster</td>
+      <td><details><summary>See actions</summary>a) Facilitate dialogue to resolve tension between hosts and IDPs.<br>b) Explore options for rent support or relocation assistance for the displaced.</details></td>
+    </tr>
+    <tr>
+      <td>11. Government/Authority-Driven Eviction</td>
+      <td>Policy shifts or land use change</td>
+      <td>Government evicts tenants due to changes in local policies, land use, or relocation initiatives.</td>
+      <td>Government Authorities, CCCM</td>
+      <td><details><summary>See actions</summary>a) Work with government for fair relocation options.<br>b) Help affected people secure land or alternative shelter.</details></td>
+    </tr>
+    <tr>
+      <td>12. Urban Development / Land Reclamation</td>
+      <td>Eviction for development projects</td>
+      <td>Eviction driven by urban development or infrastructure projects (e.g., road construction, housing projects).</td>
+      <td>Local Authorities, Government Agencies</td>
+      <td><details><summary>See actions</summary>a) Assist in relocation to designated areas.<br>b) Advocate for affected persons' rights through local governance and legal frameworks.</details></td>
+    </tr>
+    <tr>
+      <td>13. Host Community Pressure</td>
+      <td>Pressure from neighbors or landlords to evict IDPs</td>
+      <td>Hosts or neighbors pressure property owners to evict displaced persons.</td>
+      <td>Local Authorities, CCCM</td>
+      <td><details><summary>See actions</summary>a) Address root causes of host-tenant tension through mediation.<br>b) Offer host communities resources or support to alleviate strain.</details></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
